@@ -1,0 +1,15 @@
+<header>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">読書習慣化アプリ</a>
+      <div class="btn-group" role="group" aria-label="Basic example">
+        
+
+      <%= link_to '読書を始める', '/reads/new', class:"btn btn-primary" %>
+      
+      <%= link_to 'ログアウト', "/users/sign_out", data: { turbo_method: :delete },  class: "btn btn-primary logout" %> 
+        
+        </div>
+    </div>
+  </nav>
+</header>
